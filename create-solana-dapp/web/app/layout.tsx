@@ -15,10 +15,7 @@ export default function RootLayout({children,}: {children: React.ReactNode; }) {
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-
-        {/* ayad */}
-        {/* <script src="https://terminal.jup.ag/main-v2.js" data-preload></script> */}
-        
+        <script src="https://terminal.jup.ag/main-v2.js" data-preload></script>
       </Head>
       <body>
         <ClusterProvider>
